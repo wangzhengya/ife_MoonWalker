@@ -171,19 +171,8 @@ div#sidebar div.inp p{
 	width: 30%;
 	text-align: right;
 	padding-right: 10px;
-	margin-top: 10px;
 }
-div#sidebar div.inp input[type="text"]{
-	border: 1px solid #DADADA;
-	color: #888;
-	height: 30px;
-	margin-bottom: 16px;
-	margin-right: 6px;
-	margin-top: 2px;
-	padding: 3px 3px 3px 5px;
-	width: 30%;
-	font-size: 12px;
-}
+
 div#sidebar div.inp input[type="submit"]{
 	width: 100%;
 	background: #4169E1;
@@ -195,8 +184,29 @@ div#sidebar div.inp input[type="submit"]{
 	text-shadow: 1px 1px 1px #9E3F3F;
 	cursor: pointer;
 }
-
-
+div#sidebar div.tip{
+	display: block;
+	margin: 20px;
+	height: 25px;
+}
+div#sidebar div.tip div.tip-left{
+	float: left;
+	width: 30%;
+	height: 25px;
+}
+div#sidebar div.tip div.tip-right{
+	float: left;
+	width: 30%;
+}
+div#sidebar div.tip p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
 
 div#footer{
 	background-color: black;
