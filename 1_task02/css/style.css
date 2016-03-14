@@ -130,6 +130,7 @@ div.passage ol li{
 div.passage table{
 	border: 1px solid  #DCDCDC;
 	width: 100%;
+	border-spacing: 0;
 }
 div.passage tr th{
 	background-color: black;
