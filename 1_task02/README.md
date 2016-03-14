@@ -1,6 +1,7 @@
 ﻿#MoonWalker #
 ##ife百度前端技术学院task ##
 
+已经完成[task02](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task02)[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task02/) 
 
 面向人群：
     零基础或初学者
