@@ -133,11 +133,8 @@ div.passage ol li{
 div.passage table{
 	border: 1px solid  #DCDCDC;
 	width: 100%;
-<<<<<<< HEAD
 	border-spacing: 0px;
-=======
-	border-spacing: 0;
->>>>>>> refs/remotes/origin/master
+
 }
 div.passage tr th{
 	background-color: black;

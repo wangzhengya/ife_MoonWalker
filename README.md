@@ -1,10 +1,16 @@
-﻿#MoonWalker #
-##ife百度前端技术学院task ##
-已经完成[task01](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task01)
-[Demo](http://wangzhengya.github.io/ife_MoonWalker/1_task01/index.html)
-
+# ife_MoonWalker
+_by WangZhengya_
+## 百度前端技术学院task第一部分：
 
 第一阶段的主要目标是帮助大家 了解、认识、学习、掌握HTML及CSS。第一阶段任务从 3月14日 开始，持续到 4月3日。当然，您也可以在这个时间以后继续自行实践练习。
+
+* 任务一：零基础HTML编码
+github地址：[代码地址](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task01)展示地址：[DEMO](http://wangzhengya.github.io/ife_MoonWalker/1_task01/index.html)
+* 任务二：零基础HTML及CSS编码（一）
+github地址：[代码地址](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task02)展示地址：[DEMO](http://wangzhengya.github.io/ife_MoonWalker/1_task02/index.html)
+
+
+
 
 
 第一阶段任务一共有 12 个题目，如下：
