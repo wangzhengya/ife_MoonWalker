@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+} 
+
+#header{
+	background-color:#00BFFF;
+	height: 70px;
+}
+#header .header-logo{
+	float: left;
+	padding: 5px;
+	
+}
+#header .header-nav{
+	float: right;
+	height: 50px;
+	margin-top: 20px;
+}
+#header .header-logo img{
+	height: 50px;
+
+}
+#header .header-nav li{
+	display: inline-block;
+}
+#header .header-nav a:link,#header .header-nav a:active{
+	text-decoration: none;
+	color: white;
+}
+#header .header-nav a:visited{
+	text-decoration: none;
+	color: white;
+}
+#header .header-nav a:hover{
+	text-decoration: none;
+	color: red;
+}
+#header .header-nav a.active{
+	text-decoration: none;
+	color: gray;
+}
+body{
+	background-color:  #DCDCDC;
+}
+div#passage-body{
+
+	float:  left;
+	padding: 20px;
+	width: 63%;
+}
+div#passage-body .passage{
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+div.passage h2{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	font-size: 26px;
+	font-weight: 600;
+}
+div.passage h3{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+}
+div.passage p.passage-info{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+div.passage p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 30px;
+}
+div.passage ul li{
+	list-style-type: none;
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+div.passage div.picture{
+	border: solid 1px #DCDCDC;
+	margin: 20px;
+	width: 240px;
+}
+div.passage div.picture p{
+	text-align: center;
+}
+div.passage div.picture img{
+	width: 200px;
+	height: 130px;
+	margin: 20px;
+}
+div.passage ol
+{
+	margin-left: 50px;
+}
+div.passage ol li{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+div.passage table{
+	border: 1px solid  #DCDCDC;
+	width: 100%;
+	border-spacing: 0px;
+
+}
+div.passage tr th{
+	background-color: black;
+	border: 1px solid  #DCDCDC;
+	color: white;
+}
+div.passage tr td{
+	border: 1px solid  #DCDCDC;
+}
+div.passage tr.table-sum{
+	background-color: #DCDCDC;
+	border: 1px solid  #DCDCDC;
+}
+div#sidebar{
+	padding: 20px;
+	width: 30%;
+	float:left;
+}
+div#sidebar div.sidebar-content{
+	background-color: red;
+	background: white;
+	padding: 20px;
+}
+div#sidebar h2{
+	margin-left: 20px;
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+	border-left: 3px solid #DCDCDC;
+}
+div#sidebar div.inp{
+	display: block;
+	margin: 20px;
+}
+div#sidebar div.inp p{
+	float: left;
+	width: 30%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+div#sidebar div.inp input[type="submit"]{
+	width: 100%;
+	background: #4169E1;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+}
+div#sidebar div.tip{
+	display: block;
+	margin: 20px;
+	height: 25px;
+}
+div#sidebar div.tip div.tip-left{
+	float: left;
+	width: 30%;
+	height: 25px;
+}
+div#sidebar div.tip div.tip-right{
+	float: left;
+	width: 30%;
+}
+div#sidebar div.tip p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+
+div#footer{
+	background-color: black;
+	width: 100%
+	height: 40px;
+	padding: 20px;
+	margin:0 auto;
+	float: left;
+}
+div#footer div.copy{
+
+}
+div#footer p{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
