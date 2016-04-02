@@ -2,7 +2,7 @@
 ## ife百度前端技术学院task ##
 
 已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task04)
-示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task04/)
+示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task04/index.html)
 
 **面向人群：**
     始终没搞懂定位问题，每次靠碰运气实现定位的人
