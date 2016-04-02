@@ -56,10 +56,9 @@ body{
 	background-color:  #DCDCDC;
 }
 div#passage-body{
-
 	float:  left;
 	padding: 20px;
-	width: 63%;
+	margin-right: 550px;
 }
 div#passage-body .passage{
 	background-color: white;
@@ -150,8 +149,8 @@ div.passage tr.table-sum{
 }
 div#sidebar{
 	padding: 20px;
-	width: 30%;
-	float:left;
+	width: 500px;
+	float:right;
 }
 div#sidebar div.sidebar-content{
 	background-color: red;

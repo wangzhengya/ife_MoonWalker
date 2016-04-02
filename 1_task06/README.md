@@ -1,11 +1,11 @@
 
 ## ife百度前端技术学院task05 ##
 
-已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task05)
-示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task05/index.html)
+已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task06)
+示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task06/index.html)
 
 **面向人群：**
-    零基础或初学者
+    初学者
 
 **难度：**
     简单
@@ -18,49 +18,48 @@
 
 **任务目标**
 
-针对设计稿样式进行合理的HTML架构，包括以下但不限于：
-* 掌握常用HTML标签的含义、用法
-* 能够基于设计稿来合理规划HTML文档结构
-* 理解语义化，合理地使用HTML标签来构建页面
 
-掌握基本的CSS编码，包括以下但不限于：
-* 了解CSS的定义、概念、发展简史
-* 掌握CSS选择器的含义和用法
-* 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
+* 深入掌握CSS中的字体、背景、颜色等属性的设置
+* 进一步练习CSS布局
+
 
 
 **任务描述**
 
 
-基于第一个任务“零基础HTML编码”的代码，参考 示例图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task05/task_1_5_1.jpg)），在步骤一的代码基础上增加CSS样式代码的编写
-* 头部和底部的黑色区域始终是100%宽
-* 页面右侧部分为固定宽度，左侧保持与浏览器窗口变化同步自适应变化
-* 左侧的各个模块里面的内容宽度跟随左侧整体宽度同步自适应变化
-* 10张图片需要永远都完整展现，所以会随着宽度变窄，从两行变成三行甚至更多，也有可能随着宽度变宽，变成一行
+* 参考 PDS设计稿（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_1.psd)），实现页面开发，要求实现效果与 样例（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_2.jpg)） 基本一致
+* 页面中的各字体大小，内外边距等可参看 标注图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_3.jpg)）
+* 页面宽度固定（定宽）
+
 
 
 **任务注意事项**
 
 
+
 * 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 示例图仅为参考，不需要完全实现一致，其中的图片、文案均可自行设定
-* 尽可能多地尝试不同的、更多的样式设定来实践各种CSS属性
-* HTML 及 CSS 代码结构清晰、规范
+* 设计稿中的图片、文案均可自行设定
+* 在Chrome中完美实现符合标注中的各项说明
+* 有能力的同学可以尝试跨浏览器的兼容性
+* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+
 
 
 
 **任务协作建议**
 
 
+
 * 团队集中讨论，明确题目要求，保证队伍各自对题目要求认知一致
 * 可以各自完成任务实践，也可以按照以下分模块然后各自分工完成
-* 头部、底部及整体左右布局架构
-* 右侧表单
-* 前面两篇文章部分
-* 图片部分
-* 表格部分
+* 整体布局
+* 顶部、大图及右上角
+* 中间三段文字
+* 左下角内容
+* 右下角内容
 * 交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
 * 相互讨论，最后合成一份组内最佳代码进行提交
+
 
 
 **参考资料**
