@@ -1,7 +1,7 @@
 
 ## ife百度前端技术学院task ##
 
-已经完成[task02](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task03)
+已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task03)
 示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task03/)
 
 **面向人群：**
