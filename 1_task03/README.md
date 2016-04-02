@@ -1,8 +1,8 @@
 
 ## ife百度前端技术学院task ##
 
-已经完成[task02](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task02)
-示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task02/)
+已经完成[task02](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task03)
+示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task03/)
 
 **面向人群：**
     不熟悉基本的 CSS 布局者
@@ -51,6 +51,6 @@
 
 [Learn CSS Positioning in Ten Steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/)：通过具体的例子熟悉 position 属性
 
-[]清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)：清除浮动是什么，如何简单地清除浮动
+[清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)：清除浮动是什么，如何简单地清除浮动
 
 [StackOverflow：Which method of ‘clearfix’ is best?](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)：清除浮动黑科技完整解读

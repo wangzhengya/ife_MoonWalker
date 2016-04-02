@@ -8,7 +8,8 @@ _by WangZhengya_
 github地址：[代码地址](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task01)展示地址：[DEMO](http://wangzhengya.github.io/ife_MoonWalker/1_task01/index.html)
 * 任务二：零基础HTML及CSS编码（一）
 github地址：[代码地址](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task02)展示地址：[DEMO](http://wangzhengya.github.io/ife_MoonWalker/1_task02/index.html)
-
+* 任务三：三栏式布局
+github地址：[代码地址](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task03)展示地址：[DEMO](http://wangzhengya.github.io/ife_MoonWalker/1_task03/index.html)
 
 
 
@@ -55,4 +56,3 @@ github地址：[代码地址](https://github.com/wangzhengya/ife_MoonWalker/tree
         任务10-11提供给对移动端开发有兴趣的同学进行挑战
 
         任务12提供给初学者，并且对CSS 3各种新特性有兴趣的同学进行挑战
-        
