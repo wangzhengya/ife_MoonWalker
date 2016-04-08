@@ -1,14 +1,14 @@
 
-## ife百度前端技术学院task06 ##
+## ife百度前端技术学院task11 ##
 
-已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task06)
-示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task06/index.html)
+已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task11)
+示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task11/index.html)
 
 **面向人群：**
-    初学者
+    有一定HTML及CSS基础，想要尝试移动开发
 
 **难度：**
-    简单
+    中
 
 **重要说明**
 
@@ -19,54 +19,46 @@
 **任务目标**
 
 
-* 深入掌握CSS中的字体、背景、颜色等属性的设置
-* 进一步练习CSS布局
-
+* 进行移动开发时的HTML及CSS实践
+* 掌握移动Web开发在页面架构和布局的方法及差异性
+* 掌握移动Web开发页面调试的方法
 
 
 **任务描述**
 
-
-* 参考 PDS设计稿（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_1.psd)），实现页面开发，要求实现效果与 样例（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_2.jpg)） 基本一致
-* 页面中的各字体大小，内外边距等可参看 标注图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_3.jpg)）
-* 页面宽度固定（定宽）
-
-
+实现与 设计图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task11/task_1—_11_1.png)） 一致的移动端Web页面
 
 **任务注意事项**
 
 
-
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现符合标注中的各项说明
-* 有能力的同学可以尝试跨浏览器的兼容性
+* 本任务只涉及 HTML 及 CSS
+* 实现的页面和设计图在iOS Safari，微信，Android浏览器中均基本一致
+* HTML 及 CSS 代码结构清晰、规范
+* 尝试在适合的地方使用CSS 3中的flex布局
 * 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
-
-
 
 
 **任务协作建议**
 
 
-
 * 团队集中讨论，明确题目要求，保证队伍各自对题目要求认知一致
-* 可以各自完成任务实践，也可以按照以下分模块然后各自分工完成
-* 整体布局
-* 顶部、大图及右上角
-* 中间三段文字
-* 左下角内容
-* 右下角内容
+* 各自完成任务实践
 * 交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
 * 相互讨论，最后合成一份组内最佳代码进行提交
 
 
-
 **参考资料**
 
-
-[MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
-
-[MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
-
-[慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
+[MDN:](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Mobile)手机网页开发
+[MDN:](https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag)在移动浏览器中使用viewport元标签控制布局
+[移动前端开发和 Web 前端开发的区别是什么](https://www.zhihu.com/question/20269059)
+[Alloyteam移动开发规范概述]
+[手机/移动前端开发需要注意的20个要点]
+[w3cplus响应式技术资源]
+[浅谈移动Web开发]
+[Alloyteam Mars]
+[移动WEB开发入门]
+[移动开发资源集合]
+[The Mobile Web Handbook]
+[MobileWeb 适配总结]
+[移动前端不得不了解的html5 head 头标签]
