@@ -1,0 +1,106 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td { 
+    padding: 0; 
+    margin: 0; 
+} 
+body{
+    font-size: 12px;
+    font-family:"SimHei","Microsoft Yahei","Arial";
+    color:#666;
+    background: #eeedec;
+}
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+fieldset,img,button,input{ 
+    border: 0; 
+} 
+input{
+    font-family:"SimHei","Microsoft Yahei","Arial";
+}
+address,caption,cite,code,dfn,em,strong,th,var { 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+ol,ul { 
+    list-style: none; 
+} 
+caption,th { 
+    text-align: left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+}
+img{
+    display: block;
+}
+.clearfix:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+a{
+     font-family:"SimHei","Microsoft Yahei","Arial";
+    text-decoration: none;
+    color:#333;
+}
+header{
+	width: 100%;
+	height: 56px;
+	background-color: #2189bf;
+}
+header div.header-left{
+	float: left;
+}
+header div.header-right{
+	float: right;
+	height: 56px;
+	margin-right: 20px;
+}
+header div.logo-img{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	top: 10px;
+	left: 20px;
+}
+header div.logo-img img{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+}
+header div.logo-name{
+	position: absolute;
+	height: 36px;
+	top:10px;
+	left: 76px;
+}
+header div.logo-name h1{
+	color: white;
+	font-size: 26px;
+}
+header div.search{
+	float:left;
+	width: 200px;
+	height: 56px;
+}
+header div.header-right div.login{
+	float: right;
+	width: 120px;
+	height: 56px;
+	line-height: 16px;
+	padding: 20px;
+	text-align: center;
+}
+header div.header-right div.login a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+header div.header-right div.login a:hover{
+	color: orange;
+	font-size: 16px;
+}
+
