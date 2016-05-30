@@ -1,8 +1,8 @@
 
-## ife百度前端技术学院task05 ##
+## ife百度前端技术学院task12 ##
 
-已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task06)
-示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task06/index.html)
+已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task12)
+示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task12/index.html)
 
 **面向人群：**
     初学者
@@ -19,54 +19,44 @@
 **任务目标**
 
 
-* 深入掌握CSS中的字体、背景、颜色等属性的设置
-* 进一步练习CSS布局
-
-
+* 学习了解 CSS 3 都有哪些新特性，并选取其中一些进行实战小练习
 
 **任务描述**
 
 
-* 参考 PDS设计稿（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_1.psd)），实现页面开发，要求实现效果与 样例（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_2.jpg)） 基本一致
-* 页面中的各字体大小，内外边距等可参看 标注图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_3.jpg)）
-* 页面宽度固定（定宽）
+
+* 实现 示例图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task07/task_1_12_1.jpg)） 中的几个例子
+* 实现单双行列不同颜色，且前三行特殊表示的表格
+* 实现正常状态和focus状态宽度不一致的input文本输入框，且鼠标焦点进入输入框时，宽度的变化以动画呈现
+* 不使用JavaScript，实现一个Banner图轮流播放的效果，且点击右下角的1，2，3可以切换到对应Banner图片
+
 
 
 
 **任务注意事项**
 
 
-
-* 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
-* 在Chrome中完美实现符合标注中的各项说明
-* 有能力的同学可以尝试跨浏览器的兼容性
-* 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
-
-
-
+* 本任务只涉及 HTML 及 CSS
+* HTML 及 CSS 代码结构清晰、规范
+* 除了任务中的3个小任务，尽可能多地尝试 CSS 3 的其他新特性
 
 **任务协作建议**
 
 
 
 * 团队集中讨论，明确题目要求，保证队伍各自对题目要求认知一致
-* 可以各自完成任务实践，也可以按照以下分模块然后各自分工完成
-* 整体布局
-* 顶部、大图及右上角
-* 中间三段文字
-* 左下角内容
-* 右下角内容
+* 可以把三个任务或自己另外想实现的CSS 3新特性分工给各个人，每个人完成一个子任务。在完成分到的任务之余可以尝试实现更多的子任务
 * 交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
 * 相互讨论，最后合成一份组内最佳代码进行提交
+
 
 
 
 **参考资料**
 
 
-[MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
+[《图解CSS3》](https://book.douban.com/subject/25920727/)
 
-[MDN CSS入门教程](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started)
+[W3School CSS3 教程](http://www.w3school.com.cn/css3/index.asp)
 
-[慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
+[MDN CSS 3](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS3)

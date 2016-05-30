@@ -1,8 +1,8 @@
 
-## ife百度前端技术学院task05 ##
+## ife百度前端技术学院task09 ##
 
-已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task06)
-示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task06/index.html)
+已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/1_task09)
+示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/1_task09/index.html)
 
 **面向人群：**
     初学者
@@ -19,17 +19,18 @@
 **任务目标**
 
 
-* 深入掌握CSS中的字体、背景、颜色等属性的设置
-* 进一步练习CSS布局
+* 通过实现一个较为复杂的页面，加深对于HTML，CSS的实战能力
+* 实践代码的复用、优化
+
 
 
 
 **任务描述**
 
 
-* 参考 PDS设计稿（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_1.psd)），实现页面开发，要求实现效果与 样例（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_2.jpg)） 基本一致
-* 页面中的各字体大小，内外边距等可参看 标注图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task06/task_1_6_3.jpg)）
-* 页面宽度固定（定宽）
+
+* 通过HTML及CSS实现设计稿 设计稿PSD文件（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task09/task_1_9_1.psd)），效果如 效果图（[点击打开](http://wangzhengya.github.io/ife_MoonWalker/1_task09/task_1_9_2.jpg)）
+* 整个页面内容宽度固定，但头部的蓝色导航和浏览器宽度保持一致
 
 
 
@@ -38,7 +39,8 @@
 
 
 * 只需要完成HTML，CSS代码编写，不需要写JavaScript
-* 设计稿中的图片、文案均可自行设定
+* tab只需要实现样式，有能力余力的同学可以尝试实现不使用JavaScript的情况下，实现Tab切换
+* 所有的下拉菜单（Select）均要求按照设计稿样式实现，下拉后的样式自定义，不需要实现下拉选择的功能，但样式要实现
 * 在Chrome中完美实现符合标注中的各项说明
 * 有能力的同学可以尝试跨浏览器的兼容性
 * 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
@@ -48,17 +50,19 @@
 
 **任务协作建议**
 
-
-
 * 团队集中讨论，明确题目要求，保证队伍各自对题目要求认知一致
 * 可以各自完成任务实践，也可以按照以下分模块然后各自分工完成
-* 整体布局
-* 顶部、大图及右上角
-* 中间三段文字
-* 左下角内容
-* 右下角内容
+* 整体页面布局，整个顶部，右侧的面包屑，及右侧中间的两个第一组项目
+* 整个左侧
+* 右侧上面的前三部分：查询选项部分，价格显示部分，4月统计部分
+* 右侧下方的2个模块，日历及表格
+其中，有一些公用组件也可以拆解到某个同学来进行
+* 蓝色按钮
+* 下拉菜单（Select）
+* 右侧下方4个模块的面板样式
 * 交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
-* 相互讨论，最后合成一份组内最佳代码进行提交
+* 相互讨论，最后合成一份组内最佳代码进行提交}
+
 
 
 
