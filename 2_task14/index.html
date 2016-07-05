@@ -33,12 +33,12 @@ var aqiData = [
 var Aqilist = document.getElementById('aqi-list');
 var list = document.createElement("li");
 var count = 1;
-for (var i = 0; i < aqiData.length; i++) {
-  if (aqiData[i][1] > 60) {
-    list.innerHTML += "<li>" + "第" + count + "名 " + aqiData[i][0] + ": " + aqiData[i][1] +"</li>";
+aqiData.forEach(function(element,index){
+  if (element[1]>60) {
+    list.innerHTML += "<li>" + "第" + count + "名 " + element[0] + ": " + element[1] +"</li>";
     count++;
   }
-}
+});
 Aqilist.appendChild(list);
 })();
 
