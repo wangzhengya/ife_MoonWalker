@@ -18,18 +18,25 @@
   在注释下方写下代码
   给按钮button绑定一个点击事件
   在事件处理函数中
-  获取aqi-input输入的值，并显示在aqi-display中
+  获取aqi-input输入的值，并显 示在aqi-display中
   */
-  var aqi = document.getElementById('aqi-display');
-  var btn = document.getElementById('button');
-  var aqiInput = document.getElementById('aqi-input');
-  function changeAqi(){
-    aqi.innerHTML = aqiInput.value;
+  var $ = function(id){
+    return document.getElementById(id);
   }
-  btn.onclick = changeAqi;
-  aqiInput.onkeyup = function(evt) {
+
+  var updateAqi = function(){
+    var num = parseInt($("aqi-input").value);
+    if (!isNaN(num) && num>0 && num<1000) {
+      $("aqi-display").innerText = num;
+    }else {
+      $("aqi-display").innerText = "不符合要求"
+    }
+  }
+
+  $("button").onclick = updateAqi;
+  $("aqi-input").onkeyup = function(evt){
     if (evt.keyCode == 13) {
-      changeAqi();
+      updateAqi();
     }
   }
 })();
