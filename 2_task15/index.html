@@ -7,13 +7,13 @@
 <body>
 
   <ul id="source">
-    <li>北京空气质量：<b>90</b></li>
+    <li>PEK空气质量：<b>90</b></li>
     <li>上海空气质量：<b>70</b></li>
     <li>天津空气质量：<b>80</b></li>
     <li>广州空气质量：<b>50</b></li>
     <li>深圳空气质量：<b>40</b></li>
     <li>福州空气质量：<b>32</b></li>
-    <li>成都空气质量：<b>90</b></li>
+    <li>哈尔滨空气质量：<b>90</b></li>
   </ul>
 
   <ul id="resort">
@@ -41,11 +41,9 @@ function getData() {
   var ulist = document.getElementById('source');
   var data = [];
   var liItems = ulist.getElementsByTagName('li');
-
-  var city = [];
   for (var i = 0; i < liItems.length; i++) {
     let city = [];
-    city[0] = String(liItems[i].innerText).slice(0,2);
+    city[0] = String(liItems[i].innerText).split("空气质量：")[0];
     city[1] = Number(liItems[i].lastChild.innerText);
     data.push(city);
   }
