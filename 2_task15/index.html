@@ -34,29 +34,18 @@
  * 读取id为source的列表，获取其中城市名字及城市对应的空气质量
  * 返回一个数组，格式见函数中示例
  */
+
 function getData() {
-  /*
-  coding here
-  */
-  var ulist = document.getElementById('source');
   var data = [];
-  var liItems = ulist.getElementsByTagName('li');
+  var liItems = document.getElementById('source')
+                      .getElementsByTagName('li');
   for (var i = 0; i < liItems.length; i++) {
     let city = [];
     city[0] = String(liItems[i].innerText).split("空气质量：")[0];
     city[1] = Number(liItems[i].lastChild.innerText);
     data.push(city);
   }
-  /*
-  data = [
-    ["北京", 90],
-    ["北京", 90]
-    ……
-  ]
-  */
-
   return data;
-
 }
 
 /**
@@ -79,7 +68,7 @@ function sortAqiData(data) {
 function render(data) {
   data.forEach(function(element,index){
     var sortList = document.createElement("li");
-    sortList.innerHTML += "<li>" + element[0] + "空气质量：" + "<b>" + element[1] + "</b>" + "</li>";
+    sortList.innerHTML += "第" + (index+1) +"名:" +  element[0] + "空气质量：" + "<b>" + element[1] + "</b>";
     document.getElementById('resort').appendChild(sortList);
   });
 }
