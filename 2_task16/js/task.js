@@ -15,8 +15,18 @@ var $ = function(id){
  * 然后渲染aqi-list列表，增加新增的数据
  */
 function addAqiData() {
-	var cityName = String($("aqi-city-input").value);
-	var cityAqi = parseInt($("aqi-value-input").value);
+	var cityName = $("aqi-city-input").value.trim();
+	var cityAqi = $("aqi-value-input").value.trim();
+
+
+    if(!cityName.match(/^[A-Za-z\u4E00-\u9FA5]+$/)){
+        alert("城市名必须为中英文字符！")
+        return;
+    }
+    if(!cityAqi.match(/^\d+$/)) {
+        alert("空气质量指数必须为整数！")
+        return;
+	}
 	//判断输入的是否符合条件
 	aqiData[cityName] = cityAqi;
 }
@@ -70,7 +80,7 @@ function delBtnHandle(tdCity) {
 
 function init() {
   // 在这下面给add-btn绑定一个点击事件，点击时触发addBtnHandle函数
-  document.getElementById("add-btn").onclick = addBtnHandle;
+  document.getElementById("add-btn").addEventListener("click", addBtnHandle)
   // 想办法给aqi-table中的所有删除按钮绑定事件，触发delBtnHandle函数
 
 }
