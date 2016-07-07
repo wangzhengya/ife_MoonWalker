@@ -1,5 +1,5 @@
 
-## ife百度前端技术学院02-task02 ##
+## ife百度前端技术学院02-task16 ##
 
 已经完成[task代码](https://github.com/wangzhengya/ife_MoonWalker/tree/master/2_task16)
 示例：[demo](http://wangzhengya.github.io/ife_MoonWalker/2_task16/index.html)
